@@ -16,7 +16,7 @@
 #include "bg.h"
 
 /* do not change this line - Makefile's 'tar' target depends on it */
-#define VERSION "1.0"
+#define VERSION "1.1"
 
 static gchar *cfgfile = NULL;
 static gchar version[] = VERSION;
