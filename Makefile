@@ -73,7 +73,7 @@ tar:
 		exit 1;\
 	else\
 		ln -s $(CWD) trayer-$(VER);\
-		tar --exclude CVS -hzcvf trayer-$(VER).tgz trayer-$(VER);\
+		tar --exclude CVS --exclude .hg -hzcvf trayer-$(VER).tgz trayer-$(VER);\
 		rm -f trayer-$(VER);\
 	fi;
 
